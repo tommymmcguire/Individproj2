@@ -1,0 +1,1 @@
+(Result<i32, rusqlite::Error>, Result<String, rusqlite::Error>, Result<String, rusqlite::Error>, Result<String, rusqlite::Error>, Result<String, rusqlite::Error>, Result<String, rusqlite::Error>, Result<i32, rusqlite::Error>, Result<i32, rusqlite::Error>, Result<f64, rusqlite::Error>, Result<i32, rusqlite::Error>, Result<f64, rusqlite::Error>, Result<i32, rusqlite::Error>)
