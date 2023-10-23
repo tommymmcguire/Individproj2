@@ -66,7 +66,6 @@ fn load_csv_into_db(file_path: &str) -> Result<(), Box<dyn StdError>> {
 }
 
 
-
 fn extract(url: &str, file_path: &str) -> Result<(), Box<dyn StdError>> {
     let response = reqwest::blocking::get(url)?;
     let mut file = std::fs::File::create(file_path)?;
@@ -204,6 +203,7 @@ fn delete_record(rank: i32) -> Result<(), Error> {
     conn.execute("DELETE FROM IMDB_Movie_Data WHERE rank = ?", params![rank])?;
     Ok(())
 }
+
 
 fn main() -> Result<(), Box<dyn StdError>> {
     // Extract data from URL and load it into the SQLite database
