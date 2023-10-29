@@ -20,6 +20,7 @@ The first function that executes is 'query_top5' which prints the top 5 rated mo
 <img width="695" alt="Screenshot 2023-10-29 at 3 23 01 PM" src="https://github.com/tommymmcguire/Individproj2/assets/141086024/ac84d789-0bbb-4d9d-9e05-eee77502ccf8">
 
 The second function to execute is 'query_best_genre' which prints the top 3 movies based on the genre. The genre can be changed in the main function. 
+
 <img width="687" alt="Screenshot 2023-10-29 at 3 23 19 PM" src="https://github.com/tommymmcguire/Individproj2/assets/141086024/e18c71d4-7f7f-4d7c-8de2-3ba0597da26e">
 
 Next, the program executes CRUD operations. This is an example of a row created and read. You can also update and delete the row. 
