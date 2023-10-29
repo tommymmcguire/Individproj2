@@ -11,8 +11,7 @@ The combination of Rust and Copilot makes this project computationally efficient
 ## Details
 The dependencies used in this project include reqwest, csv, rusqlite, and clap. The dependencies can be found in Cargo.toml.
 
-To use this project you will first need to build it using `cargo build`
-Then run `cargo run` to execute
+To use this project you will first need to build it using `cargo build`, then run `cargo run` to execute.
 
 ## Output
 
