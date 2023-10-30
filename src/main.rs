@@ -236,5 +236,13 @@ fn main() -> Result<(), Box<dyn StdError>> {
     // Read a record
     read_record(1001)?;
 
+    update_record(1001, 9.0)?;
+
+    // Read the updated record
+    read_record(1001)?;
+
+    // Delete the record
+    delete_record(1001)?;
+
     Ok(())
 }
