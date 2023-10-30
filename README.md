@@ -3,6 +3,12 @@
 
 # IDS 706 Individual Project 2
 
+---
+**Walk Through Youtube Video**
+[YouTube](https://youtu.be/Pu5Zv3aWvwE)
+
+---
+
 ## Purpose
 This project serves as a practical example of how to manipulate an SQLite database and perform CRUD operations using Rust. In specific, this project extracts information from a csv file in GitHub, connects to a database, and creates and manipulates a table within that database. 
 While developing this project, I used GitHub copilot to develop and polish my code. This enhanced the efficiency and effectiveness of the overall project. 
